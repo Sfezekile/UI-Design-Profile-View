@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UI Design - Profile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <section class="card">
+        <div class="banner"></div>
+        <div class="profile">
+            <div class="img">
+                <img src="pic 1.jpeg" alt="">
+            </div>
+            <div class="btn-view">
+                <button class="btn">View Profile</button>
+            </div>
+        </div>
+        <div class="header">
+            <div class="header-name">
+                <h1>Henry Sullivan</h2>
+            </div>
+            <div class="header-email">
+                <p>Henrysullivan@gmail.com</p>
+            </div>
+        </div>
+
+        <div class="main-section">
+            <div class="stats-section">
+                <div class="stat border-right" 
+                aria-label="Next Best Action">
+                    <p class="stat-title">Next Best Action</p>
+                    <h5 class="stat-value">Product Upsell</h5>
+                </div>
+                <div class="stat border-right" 
+                aria-label="Engagement Score">
+                    <p class="stat-title">Engagement Score</p>
+                    <h5 class="stat-value">85/100</h5>
+                </div>
+                <div class="stat" aria-label="Support Priority">
+                    <p class="stat-title">Support Priority</p>
+                    <h5 class="stat-value">High Value</h5>
+                </div>
+            </div>
+            <div class="info-section">
+                <div class="info-left">
+                    <h4>Public profile</h4>
+                    <p>This will be displayed on your profile.</p>
+                </div>
+                <div class="info-right">
+                    <input type="text" class="input-name" placeholder="Henry Sullivan" aria-label="Name">
+                    <div class="email-input">
+                        <input type="email" class="input-email" placeholder="Henrysullivan" aria-label="Email">
+                        <h2 class="email-display">@gmail.com</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="setting-section">
+                <div class="setting-item">
+                    <div class="details">
+                        <h2>Support access</h2>
+                        <p>you have granted us to access to your account for support purposes until Aug 31,2022, 9:40 PM.</p>
+                    </div>
+                    <div class="cta">
+                        <!-- From Uiverse.io by mrhyddenn --> 
+                        <label class="switch">
+                          <input type="checkbox">
+                          <span class="slider"></span>
+                        </label>
+                    </div>
+                </div>
+                <div class="setting-item">
+                    <div class="details">
+                        <h2>Log out all devices</h2>
+                        <p>Log out all other active sessions on other devices besides this one</p>
+                    </div>
+                    <div class="cta">
+                        <button class="log-out-btn btn">Log out</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bottom-section">
+            <div class="cta bottom-btn">
+                <button class="cancle-btn btn">Cancel</button>
+                <button class="save-btn btn">Save changes</button>
+            </div>
+            
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
